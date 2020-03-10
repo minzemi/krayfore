@@ -1,1 +1,47 @@
-
+<html>
+<head>
+<style>
+html, body, #wrapper {
+       height:100%;
+       width: 100%;
+       margin: 0;
+       padding: 0;
+       border: 0;
+    }
+    #wrapper td {
+       vertical-align: middle;
+       text-align: center;
+    }
+</style>
+    
+<script>
+var dayo = new Audio();
+dayo.src = "/media/dayo.mp3";
+    
+var science = new Audio();
+science.src = "/media/science.wav";
+    
+var pb = new Audio();
+pb.src = "/media/pb.wav";
+</script>
+    
+</head>
+    
+<body style="background-color:yellow; color:#002fff; font-size:xx-large">
+   <table id="wrapper">
+      <tr>
+         <td>Foresight Foundation<br><br>Home About Me Contact <br>
+             <a href="#" onmousedown="science.play()"><img src="/images/him.jpg"></a>
+             
+             <video width="480" height="270" controls><source src="/media/arigato.mp4" type="video/mp4"></video>
+             
+             <a href="#" onmousedown="pb.play()"><img src="/images/smile.jpeg"></a>
+             
+             <br>
+             <a href="#" onmousedown="dayo.play()"><img src="/images/small.jpg"></a>
+             <br><br>
+             <script type="text/javascript" src="//counter.websiteout.net/js/28/9/0/1"></script></td>
+      </tr>
+   </table>
+</body>
+</html>
